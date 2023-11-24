@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+    .container {
+        max-width: 400px;
+        border: 1px solid rgb(15, 39, 255);
+        margin: 80px auto;
+        border-radius: 5px;
+        background: rgb(8, 165, 255);
+        box-shadow: 3px 5px 5px gray;
+    }
+
+    form {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .form-control input[type="text"] {
+        padding: 5px
+    }
+
+    button {
+        background: rgb(19, 167, 122);
+        color: aliceblue;
+        border: 0;
+        padding: 5px;
+        cursor: pointer;
+        height: 30px;
+    }
+
+    .error {
+        color: red;
+        text-align: left;
+    }
+    .d-done {
+        display: none;
+    }
